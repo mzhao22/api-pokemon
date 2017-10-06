@@ -1,4 +1,4 @@
-var food = [
+var pokemon = [
     {
 		"name": "Sweet Soy Chicken Wings",
 		"amount": "16",
@@ -43,8 +43,8 @@ var food = [
 		 $('#result').append("<br />ingredients: " + food[2].materials[0] + food[2].materials[1] + "");
 	 }
 	 else {
-		 $('#result').append('<li> foodname </li>');
-		 $('#result').append("<li>" + foodname + "</li>");
+		 $('#result').append('<li> Whoops, the pokemon you entered are not here yet </li>');
+		 $('#result').append("<li>" + whatwhat + "</li>");
 	 }
 	 console.log("Caught submit event");
 	 e.preventDefault();
@@ -52,4 +52,4 @@ var food = [
 });
 
 
-//pictures to add on 
+//pictures to add on

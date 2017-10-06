@@ -64,10 +64,14 @@ table {
   border-radius: 4px;
 }
 
-body{
+body {
 	background-color: #e5f8f9;
 	text-align: center;
 }
+
+body {
+   background-image: url("image/background.jpg");
+ }
 
 h1 {
   color: #62dbad;
@@ -75,14 +79,26 @@ h1 {
   font-weight: bold;
 	text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+	padding-bottom: 10px;
 }
 
 botton {
-	font-size: 0em;
+	font-size: 2em;
 	text-align: center;
 }
 
-#result{
+input {
+	font-size: 1em;
+	text-align: center;
+	font-style: normal;
+	font-family: Georgia, Arial, sans-serif;
+	padding-top: 3px;
+}
+
+#result {
+	padding-top: 10px;
   text-transform: capitalize;
 	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #605570;
 }
