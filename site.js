@@ -15,6 +15,3 @@
 	 e.preventDefault();
 
 });
-
-
-//pictures to add on
