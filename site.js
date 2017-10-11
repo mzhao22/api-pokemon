@@ -4,7 +4,7 @@
 	 var pokemon = $('#pokemon').val();
   $.ajax({
     type: "GET",
-    url: 'https://pokeapi.co/api/v2/pokemon/' + input + '&maxResults=20',
+    url: 'https://pokeapi.co/api/v2/pokemon/' + pokemon + '&maxResults=20',
     dataType: "html",
     success: function (results){
      var data = JSON.parse(results);
