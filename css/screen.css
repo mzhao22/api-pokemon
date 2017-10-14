@@ -50,7 +50,7 @@ table {
 /* End Reset CSS */
 /* Begin Site CSS */
 
-#user-form {
+#poke-form {
   display: block;
   width: 800px;
   margin: 0 auto;
@@ -96,12 +96,14 @@ input {
 	text-decoration-color: #ffd11a;
 }
 
-#result {
-	font-size: 1.222em;
+#results {
+	margin: 0 auto;
+  margin-top: 4em;
+	font-size: 1.0em;
 	padding-top: 20px;
   text-transform: capitalize;
 	text-align: center;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-weight: bold;
-	color: #605570;
+	line-height: 2;
 }
