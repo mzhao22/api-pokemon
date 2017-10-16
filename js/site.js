@@ -33,5 +33,6 @@ e.preventDefault();
         for(var i = 0;i<arr.types.length;i++){
             $('#results').append("<li>" + "Pokemon type: " + arr.types[i].type.name+ "</li>");
         }
+
     }
 });
